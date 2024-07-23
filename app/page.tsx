@@ -4,8 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import words from "./wordList.json";
 import { HangmanDrawing } from "./HangmanDrawing";
-import HangmanWord from "./HangmanWord";
-import Keyboard from "./Keyboard";
+import { HangmanWord } from "./HangmanWord";
+import { Keyboard } from "./Keyboard";
 
 export default function Home() {
   const [wordToGuess, setWordToGuess] = useState(() => {
